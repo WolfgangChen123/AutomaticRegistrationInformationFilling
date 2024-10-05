@@ -39,7 +39,7 @@ edge_driver.maximize_window()
 time.sleep(2)
 #Student information
 input_element0 = edge_driver.find_element(By.NAME, 'Name')
-input_element0.send_keys('安安')
+input_element0.send_keys('sam')
 
 input_element1 = edge_driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[4]/div[2]/select')
 input_element1.send_keys('男 / Male')
