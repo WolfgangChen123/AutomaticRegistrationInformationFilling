@@ -45,7 +45,7 @@ input_element1 = edge_driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1
 input_element1.send_keys('男 / Male')
 
 input_element2 = edge_driver.find_element(By.NAME, 'Birthday')
-input_element2.send_keys('2016-09-23')
+input_element2.send_keys('2016-06-23')
 
 input_element3 = edge_driver.find_element(By.NAME, 'IdType')
 input_element3.send_keys('身份证 ID')
