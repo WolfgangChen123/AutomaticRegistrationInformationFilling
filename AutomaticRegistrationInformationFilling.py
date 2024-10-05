@@ -51,7 +51,7 @@ input_element3 = edge_driver.find_element(By.NAME, 'IdType')
 input_element3.send_keys('身份证 ID')
 
 input_element5 = edge_driver.find_element(By.NAME, 'IdNumber')
-input_element5.send_keys('320502222233412366')
+input_element5.send_keys('320502222233612366')
 
 input_element6 = edge_driver.find_element(By.NAME, 'RegPlace')
 input_element6.send_keys('江苏省苏州市123师大')
