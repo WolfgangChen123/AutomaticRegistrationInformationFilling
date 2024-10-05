@@ -64,7 +64,7 @@ input_element8.send_keys('东方幼儿园')
 time.sleep(1)
 #Parent information1
 input_element9 = edge_driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[5]/div[1]/div[2]/input')
-input_element9.send_keys('陈大大大')
+input_element9.send_keys('陈大大')
 
 input_element10 = edge_driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[5]/div[1]/div[3]/select')
 input_element10.send_keys('硕士')
