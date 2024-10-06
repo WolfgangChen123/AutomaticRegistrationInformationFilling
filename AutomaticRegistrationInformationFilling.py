@@ -39,7 +39,11 @@ edge_driver.maximize_window()
 time.sleep(2)
 #Student information
 input_element0 = edge_driver.find_element(By.NAME, 'Name')
+<<<<<<< HEAD
 input_element0.send_keys('bigstone')
+=======
+input_element0.send_keys('sam')
+>>>>>>> eed64af53de08c36e9b49ecc994d6164410f4f05
 
 input_element1 = edge_driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[4]/div[2]/select')
 input_element1.send_keys('男 / Male')
@@ -51,10 +55,10 @@ input_element3 = edge_driver.find_element(By.NAME, 'IdType')
 input_element3.send_keys('身份证 ID')
 
 input_element5 = edge_driver.find_element(By.NAME, 'IdNumber')
-input_element5.send_keys('320502222233412345')
+input_element5.send_keys('320502222233612366')
 
 input_element6 = edge_driver.find_element(By.NAME, 'RegPlace')
-input_element6.send_keys('江苏省苏州市123师大')
+input_element6.send_keys('江苏省苏州市南师大123')
 
 input_element7 = edge_driver.find_element(By.NAME, 'Address')
 input_element7.send_keys('相城区')
@@ -64,7 +68,7 @@ input_element8.send_keys('东方幼儿园')
 time.sleep(1)
 #Parent information1
 input_element9 = edge_driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[5]/div[1]/div[2]/input')
-input_element9.send_keys('陈大大大')
+input_element9.send_keys('陈大大')
 
 input_element10 = edge_driver.find_element(By.XPATH, '/html/body/div[3]/div/div[1]/div/div[5]/div[1]/div[3]/select')
 input_element10.send_keys('硕士')
